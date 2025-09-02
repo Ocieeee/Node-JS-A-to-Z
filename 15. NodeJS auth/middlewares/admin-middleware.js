@@ -5,8 +5,6 @@ const isAdminUser = (req, res, next) => {
       message: "Access denied! Admin rights required.",
     });
   }
-
-  next();
 };
 
 module.exports = isAdminUser;
